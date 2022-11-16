@@ -31,7 +31,7 @@ jobs:
         with:
           repo: '${{ github.repository }}'
           version: 'tags/${{ github.event.inputs.version }}'
-          file: 'v3.1.3.zip' 
+          file: 'setup_loto.zip' 
           token: ${{ secrets.GITHUB_TOKEN }}
 
       
